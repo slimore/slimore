@@ -17,6 +17,7 @@
         "php": ">=5.4.0",
         "slim/slim": "~2.0",
 		"vlucas/spot2": "~2.0",
+		"gregwar/captcha": "dev-master",
 		"codeguy/upload": "*",
 		"jasongrimes/paginator": "~1.0",
 		"respect/validation": "0.10.*@dev",
@@ -24,10 +25,7 @@
 		"maximebf/debugbar" : "dev-master",
 		"fabfuel/prophiler": "~1.0"
     },
-    "minimum-stability": "dev",
-    "suggest": {
-        "ext-mcrypt": "Required for HTTP cookie encryption"
-    },
+    "minimum-stability": "*",
     "autoload": {
         "psr-0": {
         	"Slimore": "src/"
