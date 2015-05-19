@@ -1,0 +1,37 @@
+{
+    "name": "slimore/slimore",
+    "type": "library",
+    "description": "Slimore: Fully MVC for Slim PHP Framwork.",
+	"version" : "0.1.0-dev",
+    "keywords": ["microframework","rest","router"],
+    "homepage": "http://github.com/pandao/slimore",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pandao",
+            "email": "ipandao@qq.com",
+            "homepage": "http://www.ipandao.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "slim/slim": "~2.0",
+		"vlucas/spot2": "~2.0",
+		"gregwar/captcha": "dev-master",
+		"codeguy/upload": "*",
+		"jasongrimes/paginator": "~1.0",
+		"respect/validation": "0.10.*@dev",
+		"rossriley/validation": "1.2.*@dev",
+		"maximebf/debugbar" : "dev-master",
+		"fabfuel/prophiler": "~1.0"
+    },
+    "minimum-stability": "*",
+    "suggest": {
+        "ext-mcrypt": "Required for HTTP cookie encryption"
+    },
+    "autoload": {
+        "psr-0": {
+        	"Slimore": "src/"
+        }
+    }
+}
