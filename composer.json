@@ -2,7 +2,7 @@
     "name": "slimore/slimore",
     "type": "library",
     "description": "Slimore: Fully (H)MVC for Slim PHP Framwork.",
-	"version" : "0.1.0-dev",
+	"version" : "0.1.0",
     "keywords": ["microframework", "mvc", "hmvc", "restful","rest","router"],
     "homepage": "http://github.com/pandao/slimore",
     "license": "MIT",
@@ -24,7 +24,7 @@
     "require-dev": {
       "apigen/apigen" : "~4.1.1"
     },
-    "minimum-stability": "*",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Slimore\\": "src/Slimore"
