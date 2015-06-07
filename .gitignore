@@ -1,9 +1,18 @@
 vendor/
+tests/
+temp/
+backup/
+docs/
+api/
 
 # PHPUnit
 phpunit.xml
 
 *.sh
 *.bat
+.idea/
+.settings/
+.buildpath
+.project
 
 composer.lock

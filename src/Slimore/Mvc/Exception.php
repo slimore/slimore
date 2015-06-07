@@ -14,32 +14,12 @@
 namespace Slimore\Mvc;
 
 /**
- * Class Model
+ * Class Exception
  *
  * @author Pandao
  * @package Slimore\Mvc
  */
 
-class Model extends \Illuminate\Database\Eloquent\Model
+class Exception extends \RuntimeException
 {
-    /**
-     * @var string
-     */
-
-	protected $table = null;
-
-    /**
-     * @var bool
-     */
-
-    public    $timestamps = false;
-
-    /**
-     * Constructor
-     */
-
-	public function __construct()
-	{
-		parent::__construct();
-	}
 }
