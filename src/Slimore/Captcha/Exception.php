@@ -5,8 +5,8 @@
  *
  * @author      Pandao <slimore@ipandao.com>
  * @copyright   2015 Pandao
- * @link        http://github.com/pandao/slimore
- * @license     MIT License https://github.com/pandao/slimore#license
+ * @link        http://github.com/slimore/slimore
+ * @license     MIT License https://github.com/slimore/slimore#license
  * @version     0.1.0
  * @package     Slimore\Captcha
  */
