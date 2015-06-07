@@ -85,6 +85,8 @@ index.php :
 define('APP_PATH',  realpath(__DIR__ . '/../app') . DIRECTORY_SEPARATOR);
 define('BASE_URL',  str_replace('index.php', '', $_SERVER['PHP_SELF']));
 
+require __DIR__ . '/../vendor/autoload.php';
+
 $app = new \Slimore\Mvc\Application([
     'debug'           => true,
 	'path'            => APP_PATH,
