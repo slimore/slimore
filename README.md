@@ -107,10 +107,32 @@ $app->get("/", function() {
 // Routes
 
 //$app->get('/news', 'NewsController:read');
+// or $app->get('/news', controller('index', 'read'));
+
 //$app->get('/news', 'Home\Controllers\NewsController:read');
+// or $app->get('/news', controller('news', 'read', 'Home\Controllers\\'));
+
 //$app->post('/news', 'Home\Controllers\NewsController:create');
 //$app->put('/news/:id', 'Home\Controllers\NewsController:update');
 //$app->delete('/news/:id', 'Home\Controllers\NewsController:delete');
+
+// or
+/*
+$app->moduleNamespace('Home\Controllers\\', function($namespace, $app) {
+    //echo $namespace;
+
+    $ctl = 'IndexController';
+
+    //$app->get('/', $namespace . $ctl . ':index');
+    //$app->get('/news/:id', $namespace . $ctl . ':index');
+
+    $app->controller('index', function($controller, $app, $namespace) {
+
+         //echo $controller . ', ' . $namespace;
+        //$app->get('/news/:id', $namespace . $controller . ':index');
+
+    }, $namespace);
+});*/
 
 // Auto routes => /:action, /:controller/:action, /:module/:controller/:action
 $app->autoRoute();
