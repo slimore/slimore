@@ -221,10 +221,10 @@ class IndexController extends \Slimore\Mvc\Controller
 
 ### Changes
 
-[Change logs](https://github.com/pandao/slimore/blob/master/CHANGE.md)
+[Change logs](https://github.com/slimore/slimore/blob/master/CHANGE.md)
 
 ### License
 
-The [MIT License](https://github.com/pandao/slimore/blob/master/LICENSE).
+The [MIT License](https://github.com/slimore/slimore/blob/master/LICENSE).
 
 Copyright (c) 2015 Pandao
